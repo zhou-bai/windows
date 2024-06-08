@@ -143,18 +143,11 @@ namespace Bookshop
 
         private void Print_Click(object sender, EventArgs e)
         {
-            if (js)
-            {
                 printDocument1.DefaultPageSettings.PaperSize = new System.Drawing.Printing.PaperSize("pprnm", 285, 600);
                 if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
                 {
                     printDocument1.Print();
                 }
-            }
-            else
-            {
-                MessageBox.Show("请先结算");
-            }
         }
 
         int prodid, prodqty, prodprice, tottal, pos = 60;
@@ -186,41 +179,17 @@ namespace Bookshop
 
         }
 
-        private void Jsb_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            if (BillDGV.Rows.Count == 0 || BillDGV.Rows[0].Cells[0].Value == null)
-            {
-                MessageBox.Show("购物车空，请加入商品！！！");
-            }
-            else
-            {
-                try
-                {
-                    Con.Open();
-                    string query = "insert into DildDb1 (UName, Amount) values('" + UserName.Text + "','" + GrdToal + "')";
-                    SqlCommand cmd = new SqlCommand(query, Con);
-                    cmd.ExecuteNonQuery();
-                    js = true;
-                    wxbox.Visible = true;
-                    MessageBox.Show("已支付" + GrdToal + "元\n请打印小票以结束订单");
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-                finally
-                {
-                    Con.Close();
-                }
-            }
+
         }
+
 
         string prodname;
         bool js = false;
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            e.Graphics.DrawString("晓鱼书店", new Font("幼圆", 12, FontStyle.Bold), Brushes.Red, new Point(80));
             e.Graphics.DrawString("编号 产品 价格 数量 总计", new Font("幼圆", 10, FontStyle.Bold), Brushes.Red, new Point(26, 40));
             foreach (DataGridViewRow row in BillDGV.Rows)
             {
@@ -237,14 +206,13 @@ namespace Bookshop
                 pos = pos + 20;
             }
             e.Graphics.DrawString("订单总额：" + GrdToal, new Font("幼圆", 12, FontStyle.Bold), Brushes.Crimson, new Point(60, pos + 50));
-            e.Graphics.DrawString("************晓鱼书店************", new Font("幼圆", 10, FontStyle.Bold), Brushes.Crimson, new Point(40, pos + 85));
+            e.Graphics.DrawString("欢迎光临暨南书店", new Font("幼圆", 10, FontStyle.Bold), Brushes.Crimson, new Point(40, pos + 85));
             BillDGV.Rows.Clear();
             BillDGV.Refresh();
             TotalLbl.Text = "订单总额0元";
             pos = 100;
             GrdToal = 0;
             js = false;
-            wxbox.Visible = false;
         }
 
         private void BookDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)

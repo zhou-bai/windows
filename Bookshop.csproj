@@ -261,6 +261,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>bookshop.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\付款码.jpg" />
     <None Include="Resources\cion3.png" />
     <None Include="Resources\jnuicon1.png" />
   </ItemGroup>

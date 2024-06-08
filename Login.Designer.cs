@@ -39,9 +39,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.UPass = new System.Windows.Forms.TextBox();
             this.UName = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -49,7 +48,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.GLogin);
             this.panel2.Controls.Add(this.GPass);
             this.panel2.Controls.Add(this.label9);
@@ -62,8 +60,8 @@
             this.panel2.Controls.Add(this.UName);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(40, 13);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(910, 499);
             this.panel2.TabIndex = 1;
@@ -72,15 +70,15 @@
             // GLogin
             // 
             this.GLogin.BackColor = System.Drawing.Color.White;
-            this.GLogin.FlatAppearance.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.GLogin.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.GLogin.FlatAppearance.BorderSize = 2;
             this.GLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GLogin.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.GLogin.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.GLogin.Location = new System.Drawing.Point(252, 429);
-            this.GLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GLogin.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.GLogin.ForeColor = System.Drawing.Color.DarkCyan;
+            this.GLogin.Location = new System.Drawing.Point(519, 412);
+            this.GLogin.Margin = new System.Windows.Forms.Padding(4);
             this.GLogin.Name = "GLogin";
-            this.GLogin.Size = new System.Drawing.Size(87, 36);
+            this.GLogin.Size = new System.Drawing.Size(178, 54);
             this.GLogin.TabIndex = 12;
             this.GLogin.Text = "登录";
             this.GLogin.UseVisualStyleBackColor = false;
@@ -90,11 +88,11 @@
             // GPass
             // 
             this.GPass.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.GPass.Location = new System.Drawing.Point(87, 429);
-            this.GPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GPass.Location = new System.Drawing.Point(490, 369);
+            this.GPass.Margin = new System.Windows.Forms.Padding(4);
             this.GPass.Name = "GPass";
             this.GPass.PasswordChar = 'X';
-            this.GPass.Size = new System.Drawing.Size(156, 35);
+            this.GPass.Size = new System.Drawing.Size(229, 35);
             this.GPass.TabIndex = 11;
             this.GPass.Visible = false;
             // 
@@ -114,12 +112,12 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("微软雅黑", 10.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label5.Location = new System.Drawing.Point(359, 441);
+            this.label5.Font = new System.Drawing.Font("微软雅黑", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.ForeColor = System.Drawing.Color.DarkCyan;
+            this.label5.Location = new System.Drawing.Point(727, 369);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 25);
+            this.label5.Size = new System.Drawing.Size(129, 31);
             this.label5.TabIndex = 9;
             this.label5.Text = "管理员登录";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -127,12 +125,12 @@
             // su
             // 
             this.su.AutoSize = true;
-            this.su.Font = new System.Drawing.Font("微软雅黑", 10.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.su.Font = new System.Drawing.Font("微软雅黑", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.su.ForeColor = System.Drawing.Color.DarkCyan;
-            this.su.Location = new System.Drawing.Point(751, 251);
+            this.su.Location = new System.Drawing.Point(756, 260);
             this.su.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.su.Name = "su";
-            this.su.Size = new System.Drawing.Size(48, 25);
+            this.su.Size = new System.Drawing.Size(60, 31);
             this.su.TabIndex = 8;
             this.su.Text = "注册";
             this.su.Click += new System.EventHandler(this.su_Click);
@@ -140,15 +138,15 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.button1.FlatAppearance.BorderSize = 2;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.ForeColor = System.Drawing.Color.DarkCyan;
-            this.button1.Location = new System.Drawing.Point(506, 209);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(525, 245);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(196, 46);
+            this.button1.Size = new System.Drawing.Size(194, 55);
             this.button1.TabIndex = 7;
             this.button1.Text = "登录";
             this.button1.UseVisualStyleBackColor = false;
@@ -158,8 +156,8 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label3.Location = new System.Drawing.Point(349, 142);
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label3.Location = new System.Drawing.Point(356, 179);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 31);
@@ -171,8 +169,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label2.Location = new System.Drawing.Point(349, 94);
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label2.Location = new System.Drawing.Point(345, 121);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 31);
@@ -183,8 +181,8 @@
             // UPass
             // 
             this.UPass.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.UPass.Location = new System.Drawing.Point(477, 142);
-            this.UPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UPass.Location = new System.Drawing.Point(473, 180);
+            this.UPass.Margin = new System.Windows.Forms.Padding(4);
             this.UPass.Name = "UPass";
             this.UPass.PasswordChar = '*';
             this.UPass.Size = new System.Drawing.Size(297, 35);
@@ -194,61 +192,48 @@
             // UName
             // 
             this.UName.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.UName.Location = new System.Drawing.Point(477, 94);
-            this.UName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UName.Location = new System.Drawing.Point(473, 121);
+            this.UName.Margin = new System.Windows.Forms.Padding(4);
             this.UName.Name = "UName";
             this.UName.Size = new System.Drawing.Size(297, 35);
             this.UName.TabIndex = 3;
             this.UName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label1.Location = new System.Drawing.Point(40, 10);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 40);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "暨南书店";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Bookshop.Properties.Resources.jnuicon1;
-            this.pictureBox1.Location = new System.Drawing.Point(37, 54);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 94);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 122);
+            this.pictureBox1.Size = new System.Drawing.Size(266, 326);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // label4
+            // label1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label4.Location = new System.Drawing.Point(509, 33);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(158, 31);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "购买用户登录";
-            this.label4.Click += new System.EventHandler(this.label4_Click_1);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label1.Location = new System.Drawing.Point(91, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(137, 39);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "暨南书店";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(992, 550);
+            this.ClientSize = new System.Drawing.Size(909, 499);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
@@ -274,6 +259,5 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button GLogin;
         private System.Windows.Forms.TextBox GPass;
-        private System.Windows.Forms.Label label4;
     }
 }
