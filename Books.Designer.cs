@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.glpassw = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -46,7 +46,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.BTitle = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -69,12 +68,9 @@
             this.Save = new System.Windows.Forms.Button();
             this.Edit = new System.Windows.Forms.Button();
             this.Delete = new System.Windows.Forms.Button();
-            this.Reset = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.Price = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -87,12 +83,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BookDGV)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel1.Controls.Add(this.glpassw);
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.panel5);
@@ -100,18 +95,20 @@
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Location = new System.Drawing.Point(16, 8);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(309, 1021);
+            this.panel1.Size = new System.Drawing.Size(1621, 950);
             this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // glpassw
             // 
             this.glpassw.AutoSize = true;
             this.glpassw.Font = new System.Drawing.Font("微软雅黑", 10.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.glpassw.ForeColor = System.Drawing.Color.White;
-            this.glpassw.Location = new System.Drawing.Point(20, 979);
+            this.glpassw.Location = new System.Drawing.Point(1399, 59);
             this.glpassw.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.glpassw.Name = "glpassw";
             this.glpassw.Size = new System.Drawing.Size(138, 25);
@@ -124,8 +121,8 @@
             this.panel6.BackColor = System.Drawing.Color.Transparent;
             this.panel6.Controls.Add(this.pictureBox6);
             this.panel6.Controls.Add(this.label10);
-            this.panel6.Location = new System.Drawing.Point(39, 548);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Location = new System.Drawing.Point(1132, 16);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(229, 68);
             this.panel6.TabIndex = 17;
@@ -135,7 +132,7 @@
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::Bookshop.Properties.Resources.电源;
             this.pictureBox6.Location = new System.Drawing.Point(27, 8);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(53, 50);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -160,8 +157,8 @@
             this.panel5.BackColor = System.Drawing.Color.Transparent;
             this.panel5.Controls.Add(this.pictureBox5);
             this.panel5.Controls.Add(this.label8);
-            this.panel5.Location = new System.Drawing.Point(39, 420);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Location = new System.Drawing.Point(877, 16);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(229, 68);
             this.panel5.TabIndex = 17;
@@ -171,7 +168,7 @@
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::Bookshop.Properties.Resources.放大镜;
             this.pictureBox5.Location = new System.Drawing.Point(27, 8);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(53, 50);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -188,7 +185,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(77, 39);
             this.label8.TabIndex = 11;
-            this.label8.Text = "账号";
+            this.label8.Text = "查询";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // panel4
@@ -196,8 +193,8 @@
             this.panel4.BackColor = System.Drawing.Color.Transparent;
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.Controls.Add(this.label6);
-            this.panel4.Location = new System.Drawing.Point(39, 296);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Location = new System.Drawing.Point(588, 16);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(229, 68);
             this.panel4.TabIndex = 16;
@@ -207,7 +204,7 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::Bookshop.Properties.Resources._224用户;
             this.pictureBox4.Location = new System.Drawing.Point(27, 8);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(53, 50);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -229,11 +226,11 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.ForestGreen;
+            this.panel3.BackColor = System.Drawing.Color.DarkCyan;
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.label7);
-            this.panel3.Location = new System.Drawing.Point(39, 175);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Location = new System.Drawing.Point(302, 16);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(229, 68);
             this.panel3.TabIndex = 15;
@@ -243,7 +240,7 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::Bookshop.Properties.Resources.图书馆__2_;
             this.pictureBox3.Location = new System.Drawing.Point(27, 8);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(53, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -272,36 +269,24 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(137, 40);
             this.label11.TabIndex = 11;
-            this.label11.Text = "晓鱼书店";
+            this.label11.Text = "暨南书店";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Bookshop.Properties.Resources.首页;
-            this.pictureBox2.Location = new System.Drawing.Point(25, 16);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Image = global::Bookshop.Properties.Resources.cion3;
+            this.pictureBox2.Location = new System.Drawing.Point(13, 9);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(101, 65);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label1.Location = new System.Drawing.Point(483, 16);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 40);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "晓鱼书店";
-            // 
             // BTitle
             // 
             this.BTitle.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BTitle.Location = new System.Drawing.Point(53, 260);
-            this.BTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTitle.Location = new System.Drawing.Point(38, 57);
+            this.BTitle.Margin = new System.Windows.Forms.Padding(4);
             this.BTitle.Name = "BTitle";
             this.BTitle.Size = new System.Drawing.Size(267, 35);
             this.BTitle.TabIndex = 3;
@@ -312,19 +297,19 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label2.Location = new System.Drawing.Point(59, 210);
+            this.label2.Location = new System.Drawing.Point(44, 16);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 31);
+            this.label2.Size = new System.Drawing.Size(62, 31);
             this.label2.TabIndex = 5;
-            this.label2.Text = "书本名";
+            this.label2.Text = "书名";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label9.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label9.Location = new System.Drawing.Point(1253, 0);
+            this.label9.Location = new System.Drawing.Point(1504, 9);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(33, 33);
@@ -335,8 +320,8 @@
             // BAut
             // 
             this.BAut.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BAut.Location = new System.Drawing.Point(368, 261);
-            this.BAut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BAut.Location = new System.Drawing.Point(347, 59);
+            this.BAut.Margin = new System.Windows.Forms.Padding(4);
             this.BAut.Name = "BAut";
             this.BAut.Size = new System.Drawing.Size(267, 35);
             this.BAut.TabIndex = 11;
@@ -346,7 +331,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label3.Location = new System.Drawing.Point(373, 211);
+            this.label3.Location = new System.Drawing.Point(368, 16);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 31);
@@ -358,7 +343,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label4.Location = new System.Drawing.Point(673, 212);
+            this.label4.Location = new System.Drawing.Point(680, 16);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 31);
@@ -368,8 +353,8 @@
             // Qty
             // 
             this.Qty.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Qty.Location = new System.Drawing.Point(976, 260);
-            this.Qty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Qty.Location = new System.Drawing.Point(979, 59);
+            this.Qty.Margin = new System.Windows.Forms.Padding(4);
             this.Qty.Name = "Qty";
             this.Qty.Size = new System.Drawing.Size(113, 35);
             this.Qty.TabIndex = 15;
@@ -379,7 +364,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label5.Location = new System.Drawing.Point(981, 211);
+            this.label5.Location = new System.Drawing.Point(993, 16);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 31);
@@ -398,8 +383,8 @@
             "经济管理",
             "科学技术",
             "黑白漫画"});
-            this.BCat.Location = new System.Drawing.Point(668, 264);
-            this.BCat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BCat.Location = new System.Drawing.Point(655, 63);
+            this.BCat.Margin = new System.Windows.Forms.Padding(4);
             this.BCat.Name = "BCat";
             this.BCat.Size = new System.Drawing.Size(267, 32);
             this.BCat.TabIndex = 17;
@@ -410,13 +395,13 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label13.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label13.Location = new System.Drawing.Point(513, 465);
+            this.label13.ForeColor = System.Drawing.Color.Teal;
+            this.label13.Location = new System.Drawing.Point(603, 206);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(115, 33);
+            this.label13.Size = new System.Drawing.Size(65, 33);
             this.label13.TabIndex = 26;
-            this.label13.Text = "书籍列表";
+            this.label13.Text = "书库";
             // 
             // BookDGV
             // 
@@ -428,14 +413,14 @@
             this.BookDGV.BackgroundColor = System.Drawing.Color.White;
             this.BookDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.BookDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.ForestGreen;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.BookDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.BookDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.BookDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.BookDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column6,
@@ -445,15 +430,15 @@
             this.Column4,
             this.Column5});
             this.BookDGV.EnableHeadersVisualStyles = false;
-            this.BookDGV.Location = new System.Drawing.Point(32, 561);
-            this.BookDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BookDGV.Location = new System.Drawing.Point(70, 283);
+            this.BookDGV.Margin = new System.Windows.Forms.Padding(4);
             this.BookDGV.Name = "BookDGV";
             this.BookDGV.ReadOnly = true;
             this.BookDGV.RowHeadersVisible = false;
             this.BookDGV.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
-            this.BookDGV.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BookDGV.RowsDefaultCellStyle = dataGridViewCellStyle14;
             this.BookDGV.RowTemplate.Height = 23;
             this.BookDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.BookDGV.Size = new System.Drawing.Size(1232, 429);
@@ -521,8 +506,8 @@
             "经济管理",
             "科学技术",
             "黑白漫画"});
-            this.Catcbs.Location = new System.Drawing.Point(452, 518);
-            this.Catcbs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Catcbs.Location = new System.Drawing.Point(497, 243);
+            this.Catcbs.Margin = new System.Windows.Forms.Padding(4);
             this.Catcbs.Name = "Catcbs";
             this.Catcbs.Size = new System.Drawing.Size(267, 32);
             this.Catcbs.TabIndex = 28;
@@ -531,14 +516,14 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.ForestGreen;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.button5.BackColor = System.Drawing.Color.DarkCyan;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.button5.FlatAppearance.BorderSize = 2;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(777, 505);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Location = new System.Drawing.Point(830, 229);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(139, 46);
             this.button5.TabIndex = 29;
@@ -548,31 +533,31 @@
             // 
             // Save
             // 
-            this.Save.BackColor = System.Drawing.Color.ForestGreen;
-            this.Save.FlatAppearance.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.Save.BackColor = System.Drawing.Color.DarkCyan;
+            this.Save.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.Save.FlatAppearance.BorderSize = 2;
             this.Save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Save.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Save.ForeColor = System.Drawing.Color.White;
-            this.Save.Location = new System.Drawing.Point(203, 362);
-            this.Save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Save.Location = new System.Drawing.Point(216, 146);
+            this.Save.Margin = new System.Windows.Forms.Padding(4);
             this.Save.Name = "Save";
             this.Save.Size = new System.Drawing.Size(139, 46);
             this.Save.TabIndex = 30;
-            this.Save.Text = "新增";
+            this.Save.Text = "增加";
             this.Save.UseVisualStyleBackColor = false;
             this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // Edit
             // 
-            this.Edit.BackColor = System.Drawing.Color.ForestGreen;
-            this.Edit.FlatAppearance.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.Edit.BackColor = System.Drawing.Color.DarkCyan;
+            this.Edit.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.Edit.FlatAppearance.BorderSize = 2;
             this.Edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Edit.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Edit.ForeColor = System.Drawing.Color.White;
-            this.Edit.Location = new System.Drawing.Point(437, 362);
-            this.Edit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Edit.Location = new System.Drawing.Point(568, 146);
+            this.Edit.Margin = new System.Windows.Forms.Padding(4);
             this.Edit.Name = "Edit";
             this.Edit.Size = new System.Drawing.Size(139, 46);
             this.Edit.TabIndex = 31;
@@ -582,14 +567,14 @@
             // 
             // Delete
             // 
-            this.Delete.BackColor = System.Drawing.Color.ForestGreen;
-            this.Delete.FlatAppearance.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.Delete.BackColor = System.Drawing.Color.DarkCyan;
+            this.Delete.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.Delete.FlatAppearance.BorderSize = 2;
             this.Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Delete.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Delete.ForeColor = System.Drawing.Color.White;
-            this.Delete.Location = new System.Drawing.Point(680, 362);
-            this.Delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Delete.Location = new System.Drawing.Point(904, 146);
+            this.Delete.Margin = new System.Windows.Forms.Padding(4);
             this.Delete.Name = "Delete";
             this.Delete.Size = new System.Drawing.Size(139, 46);
             this.Delete.TabIndex = 32;
@@ -597,30 +582,11 @@
             this.Delete.UseVisualStyleBackColor = false;
             this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
-            // Reset
-            // 
-            this.Reset.BackColor = System.Drawing.Color.ForestGreen;
-            this.Reset.FlatAppearance.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.Reset.FlatAppearance.BorderSize = 2;
-            this.Reset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Reset.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Reset.ForeColor = System.Drawing.Color.White;
-            this.Reset.Location = new System.Drawing.Point(915, 362);
-            this.Reset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Reset.Name = "Reset";
-            this.Reset.Size = new System.Drawing.Size(139, 46);
-            this.Reset.TabIndex = 33;
-            this.Reset.Text = "重置";
-            this.Reset.UseVisualStyleBackColor = false;
-            this.Reset.Click += new System.EventHandler(this.Reset_Click);
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.Price);
-            this.panel2.Controls.Add(this.Reset);
             this.panel2.Controls.Add(this.Delete);
             this.panel2.Controls.Add(this.Edit);
             this.panel2.Controls.Add(this.Save);
@@ -634,36 +600,20 @@
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.BAut);
-            this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.BTitle);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(333, 8);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(0, 92);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1288, 1021);
+            this.panel2.Size = new System.Drawing.Size(1621, 937);
             this.panel2.TabIndex = 3;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(25, 16);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(182, 31);
-            this.label14.TabIndex = 19;
-            this.label14.Text = "欢迎您，管理员";
-            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label12.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label12.Location = new System.Drawing.Point(1129, 210);
+            this.label12.Location = new System.Drawing.Point(1150, 16);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(62, 31);
@@ -673,33 +623,22 @@
             // Price
             // 
             this.Price.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Price.Location = new System.Drawing.Point(1123, 260);
-            this.Price.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Price.Location = new System.Drawing.Point(1132, 57);
+            this.Price.Margin = new System.Windows.Forms.Padding(4);
             this.Price.Name = "Price";
             this.Price.Size = new System.Drawing.Size(113, 35);
             this.Price.TabIndex = 34;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Bookshop.Properties.Resources.书本__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(504, 70);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(101, 65);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
             // 
             // Books
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOliveGreen;
-            this.ClientSize = new System.Drawing.Size(1633, 1044);
+            this.ClientSize = new System.Drawing.Size(1633, 1004);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Books";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Books";
@@ -721,7 +660,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.BookDGV)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -742,8 +680,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox BTitle;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label9;
@@ -760,7 +696,6 @@
         private System.Windows.Forms.Button Save;
         private System.Windows.Forms.Button Edit;
         private System.Windows.Forms.Button Delete;
-        private System.Windows.Forms.Button Reset;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox Price;
@@ -771,6 +706,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Label glpassw;
-        private System.Windows.Forms.Label label14;
     }
 }

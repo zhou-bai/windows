@@ -35,7 +35,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Billing));
             this.label12 = new System.Windows.Forms.Label();
             this.Price = new System.Windows.Forms.TextBox();
-            this.Reset = new System.Windows.Forms.Button();
             this.Buycar = new System.Windows.Forms.Button();
             this.Print = new System.Windows.Forms.Button();
             this.BookDGV = new System.Windows.Forms.DataGridView();
@@ -90,7 +89,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label12.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label12.Location = new System.Drawing.Point(36, 565);
+            this.label12.Location = new System.Drawing.Point(371, 504);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(62, 31);
@@ -101,28 +100,11 @@
             // 
             this.Price.Enabled = false;
             this.Price.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Price.Location = new System.Drawing.Point(142, 561);
+            this.Price.Location = new System.Drawing.Point(441, 500);
             this.Price.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Price.Name = "Price";
-            this.Price.Size = new System.Drawing.Size(175, 35);
+            this.Price.Size = new System.Drawing.Size(82, 35);
             this.Price.TabIndex = 34;
-            // 
-            // Reset
-            // 
-            this.Reset.BackColor = System.Drawing.Color.Turquoise;
-            this.Reset.FlatAppearance.BorderColor = System.Drawing.Color.LightCyan;
-            this.Reset.FlatAppearance.BorderSize = 2;
-            this.Reset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Reset.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Reset.ForeColor = System.Drawing.Color.White;
-            this.Reset.Location = new System.Drawing.Point(548, 794);
-            this.Reset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Reset.Name = "Reset";
-            this.Reset.Size = new System.Drawing.Size(80, 46);
-            this.Reset.TabIndex = 33;
-            this.Reset.Text = "重置";
-            this.Reset.UseVisualStyleBackColor = false;
-            this.Reset.Click += new System.EventHandler(this.Reset_Click);
             // 
             // Buycar
             // 
@@ -132,10 +114,10 @@
             this.Buycar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Buycar.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Buycar.ForeColor = System.Drawing.Color.White;
-            this.Buycar.Location = new System.Drawing.Point(121, 781);
+            this.Buycar.Location = new System.Drawing.Point(406, 617);
             this.Buycar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Buycar.Name = "Buycar";
-            this.Buycar.Size = new System.Drawing.Size(373, 69);
+            this.Buycar.Size = new System.Drawing.Size(303, 69);
             this.Buycar.TabIndex = 30;
             this.Buycar.Text = "加入购物车";
             this.Buycar.UseVisualStyleBackColor = false;
@@ -149,7 +131,7 @@
             this.Print.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Print.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Print.ForeColor = System.Drawing.Color.White;
-            this.Print.Location = new System.Drawing.Point(823, 633);
+            this.Print.Location = new System.Drawing.Point(995, 576);
             this.Print.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Print.Name = "Print";
             this.Print.Size = new System.Drawing.Size(228, 84);
@@ -168,7 +150,7 @@
             this.BookDGV.BackgroundColor = System.Drawing.Color.White;
             this.BookDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.Turquoise;
             dataGridViewCellStyle13.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Transparent;
@@ -272,20 +254,18 @@
             this.panel2.Controls.Add(this.BillDGV);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.Price);
-            this.panel2.Controls.Add(this.Reset);
             this.panel2.Controls.Add(this.Buycar);
             this.panel2.Controls.Add(this.Print);
             this.panel2.Controls.Add(this.BookDGV);
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.Qty);
-            this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.BTitle);
-            this.panel2.Location = new System.Drawing.Point(275, 0);
+            this.panel2.Location = new System.Drawing.Point(0, 127);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1249, 1021);
+            this.panel2.Size = new System.Drawing.Size(1524, 896);
             this.panel2.TabIndex = 5;
             // 
             // UserName
@@ -293,7 +273,7 @@
             this.UserName.AutoSize = true;
             this.UserName.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.UserName.ForeColor = System.Drawing.Color.Black;
-            this.UserName.Location = new System.Drawing.Point(85, 354);
+            this.UserName.Location = new System.Drawing.Point(650, 49);
             this.UserName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UserName.Name = "UserName";
             this.UserName.Size = new System.Drawing.Size(90, 33);
@@ -305,7 +285,7 @@
             this.TotalLbl.AutoSize = true;
             this.TotalLbl.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.TotalLbl.ForeColor = System.Drawing.Color.DarkCyan;
-            this.TotalLbl.Location = new System.Drawing.Point(861, 488);
+            this.TotalLbl.Location = new System.Drawing.Point(1011, 488);
             this.TotalLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TotalLbl.Name = "TotalLbl";
             this.TotalLbl.Size = new System.Drawing.Size(155, 33);
@@ -317,7 +297,7 @@
             this.jia.BackColor = System.Drawing.Color.MediumTurquoise;
             this.jia.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.jia.ForeColor = System.Drawing.Color.White;
-            this.jia.Location = new System.Drawing.Point(422, 720);
+            this.jia.Location = new System.Drawing.Point(343, 650);
             this.jia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.jia.Name = "jia";
             this.jia.Size = new System.Drawing.Size(55, 36);
@@ -331,7 +311,7 @@
             this.jian.BackColor = System.Drawing.Color.MediumTurquoise;
             this.jian.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.jian.ForeColor = System.Drawing.Color.White;
-            this.jian.Location = new System.Drawing.Point(121, 720);
+            this.jian.Location = new System.Drawing.Point(42, 650);
             this.jian.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.jian.Name = "jian";
             this.jian.Size = new System.Drawing.Size(55, 36);
@@ -345,7 +325,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label7.Location = new System.Drawing.Point(231, 670);
+            this.label7.Location = new System.Drawing.Point(152, 600);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(110, 31);
@@ -355,7 +335,7 @@
             // Nb
             // 
             this.Nb.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Nb.Location = new System.Drawing.Point(218, 720);
+            this.Nb.Location = new System.Drawing.Point(139, 650);
             this.Nb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Nb.Name = "Nb";
             this.Nb.Size = new System.Drawing.Size(161, 35);
@@ -366,7 +346,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label6.Location = new System.Drawing.Point(889, 9);
+            this.label6.Location = new System.Drawing.Point(1039, 9);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(90, 33);
@@ -383,7 +363,7 @@
             this.BillDGV.BackgroundColor = System.Drawing.Color.White;
             this.BillDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.ForestGreen;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.Turquoise;
             dataGridViewCellStyle15.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             dataGridViewCellStyle15.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Transparent;
@@ -398,7 +378,7 @@
             this.Column10,
             this.Column11});
             this.BillDGV.EnableHeadersVisualStyles = false;
-            this.BillDGV.Location = new System.Drawing.Point(657, 46);
+            this.BillDGV.Location = new System.Drawing.Point(807, 46);
             this.BillDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BillDGV.Name = "BillDGV";
             this.BillDGV.ReadOnly = true;
@@ -452,7 +432,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label5.Location = new System.Drawing.Point(36, 620);
+            this.label5.Location = new System.Drawing.Point(550, 504);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 31);
@@ -463,10 +443,10 @@
             // 
             this.Qty.Enabled = false;
             this.Qty.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Qty.Location = new System.Drawing.Point(142, 616);
+            this.Qty.Location = new System.Drawing.Point(620, 500);
             this.Qty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Qty.Name = "Qty";
-            this.Qty.Size = new System.Drawing.Size(175, 35);
+            this.Qty.Size = new System.Drawing.Size(89, 35);
             this.Qty.TabIndex = 15;
             // 
             // label9
@@ -474,7 +454,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label9.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label9.Location = new System.Drawing.Point(1196, 0);
+            this.label9.Location = new System.Drawing.Point(1450, 0);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(33, 33);
@@ -499,10 +479,10 @@
             // 
             this.BTitle.Enabled = false;
             this.BTitle.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BTitle.Location = new System.Drawing.Point(142, 500);
+            this.BTitle.Location = new System.Drawing.Point(112, 500);
             this.BTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BTitle.Name = "BTitle";
-            this.BTitle.Size = new System.Drawing.Size(267, 35);
+            this.BTitle.Size = new System.Drawing.Size(229, 35);
             this.BTitle.TabIndex = 3;
             // 
             // panel1
@@ -513,10 +493,11 @@
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.UserName);
             this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.label9);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(275, 1021);
+            this.panel1.Size = new System.Drawing.Size(1524, 129);
             this.panel1.TabIndex = 4;
             // 
             // panel6
@@ -524,7 +505,7 @@
             this.panel6.BackColor = System.Drawing.Color.Transparent;
             this.panel6.Controls.Add(this.pictureBox6);
             this.panel6.Controls.Add(this.label10);
-            this.panel6.Location = new System.Drawing.Point(25, 779);
+            this.panel6.Location = new System.Drawing.Point(1187, 24);
             this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(229, 68);
@@ -548,7 +529,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label11.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label11.Location = new System.Drawing.Point(71, 27);
+            this.label11.Location = new System.Drawing.Point(13, 9);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(137, 40);
@@ -575,7 +556,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label3.Location = new System.Drawing.Point(41, 302);
+            this.label3.Location = new System.Drawing.Point(475, 41);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(167, 40);
@@ -590,7 +571,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(630, -11);
+            this.button1.Location = new System.Drawing.Point(742, -1);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(10, 1032);
@@ -612,10 +593,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Bookshop.Properties.Resources.cion3;
-            this.pictureBox2.Location = new System.Drawing.Point(39, 85);
+            this.pictureBox2.Location = new System.Drawing.Point(158, 13);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(188, 172);
+            this.pictureBox2.Size = new System.Drawing.Size(135, 106);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
@@ -651,7 +632,6 @@
         #endregion
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox Price;
-        private System.Windows.Forms.Button Reset;
         private System.Windows.Forms.Button Buycar;
         private System.Windows.Forms.Button Print;
         private System.Windows.Forms.DataGridView BookDGV;
