@@ -124,14 +124,14 @@
   <data name="wx" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wx.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="yly_赚积分 " type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yly_赚积分 .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="购物车空 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\购物车空 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cion3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cion3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="图书馆" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\图书馆.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="付款码" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\付款码.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="224用户" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\224用户.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,8 +139,8 @@
   <data name="book" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="购物车空 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\购物车空 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="图书馆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\图书馆.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="图书馆 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\图书馆 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,10 +163,13 @@
   <data name="书本 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\书本 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="yly_赚积分 " type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yly_赚积分 .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="家庭" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\家庭.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="付款码" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="付款码1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\付款码.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
