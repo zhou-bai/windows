@@ -45,7 +45,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
             this.Save = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
             this.UserSlb = new System.Windows.Forms.Label();
@@ -57,9 +56,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.BookSlb = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
@@ -280,7 +279,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.Save);
             this.panel2.Controls.Add(this.panel9);
             this.panel2.Controls.Add(this.panel8);
@@ -290,18 +288,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1621, 938);
             this.panel2.TabIndex = 7;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(16, 16);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(182, 31);
-            this.label14.TabIndex = 33;
-            this.label14.Text = "欢迎您，管理员";
             // 
             // Save
             // 
@@ -326,10 +312,10 @@
             this.panel9.Controls.Add(this.UserSlb);
             this.panel9.Controls.Add(this.pictureBox9);
             this.panel9.Controls.Add(this.label13);
-            this.panel9.Location = new System.Drawing.Point(495, 624);
+            this.panel9.Location = new System.Drawing.Point(190, 521);
             this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(304, 190);
+            this.panel9.Size = new System.Drawing.Size(916, 190);
             this.panel9.TabIndex = 17;
             // 
             // UserSlb
@@ -337,7 +323,7 @@
             this.UserSlb.AutoSize = true;
             this.UserSlb.Font = new System.Drawing.Font("微软雅黑 Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.UserSlb.ForeColor = System.Drawing.Color.White;
-            this.UserSlb.Location = new System.Drawing.Point(65, 105);
+            this.UserSlb.Location = new System.Drawing.Point(299, 51);
             this.UserSlb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UserSlb.Name = "UserSlb";
             this.UserSlb.Size = new System.Drawing.Size(69, 35);
@@ -348,7 +334,7 @@
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = global::Bookshop.Properties.Resources.人物_人;
-            this.pictureBox9.Location = new System.Drawing.Point(187, 54);
+            this.pictureBox9.Location = new System.Drawing.Point(779, 51);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(92, 89);
@@ -374,10 +360,10 @@
             this.panel8.Controls.Add(this.AmountSlb);
             this.panel8.Controls.Add(this.pictureBox8);
             this.panel8.Controls.Add(this.label5);
-            this.panel8.Location = new System.Drawing.Point(757, 288);
+            this.panel8.Location = new System.Drawing.Point(190, 288);
             this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(304, 190);
+            this.panel8.Size = new System.Drawing.Size(916, 190);
             this.panel8.TabIndex = 17;
             // 
             // AmountSlb
@@ -385,7 +371,7 @@
             this.AmountSlb.AutoSize = true;
             this.AmountSlb.Font = new System.Drawing.Font("微软雅黑 Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.AmountSlb.ForeColor = System.Drawing.Color.White;
-            this.AmountSlb.Location = new System.Drawing.Point(65, 105);
+            this.AmountSlb.Location = new System.Drawing.Point(299, 54);
             this.AmountSlb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AmountSlb.Name = "AmountSlb";
             this.AmountSlb.Size = new System.Drawing.Size(69, 35);
@@ -396,7 +382,7 @@
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.Image = global::Bookshop.Properties.Resources.yly_赚积分_;
-            this.pictureBox8.Location = new System.Drawing.Point(187, 54);
+            this.pictureBox8.Location = new System.Drawing.Point(779, 51);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(92, 89);
@@ -433,24 +419,12 @@
             this.BookSlb.AutoSize = true;
             this.BookSlb.Font = new System.Drawing.Font("微软雅黑 Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.BookSlb.ForeColor = System.Drawing.Color.White;
-            this.BookSlb.Location = new System.Drawing.Point(65, 105);
+            this.BookSlb.Location = new System.Drawing.Point(299, 54);
             this.BookSlb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BookSlb.Name = "BookSlb";
             this.BookSlb.Size = new System.Drawing.Size(69, 35);
             this.BookSlb.TabIndex = 15;
             this.BookSlb.Text = "数量";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = global::Bookshop.Properties.Resources.book;
-            this.pictureBox7.Location = new System.Drawing.Point(187, 54);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(92, 89);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 14;
-            this.pictureBox7.TabStop = false;
             // 
             // label2
             // 
@@ -476,6 +450,18 @@
             this.label9.TabIndex = 10;
             this.label9.Text = "X";
             this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.Image = global::Bookshop.Properties.Resources.book;
+            this.pictureBox7.Location = new System.Drawing.Point(779, 51);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(92, 89);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 14;
+            this.pictureBox7.TabStop = false;
             // 
             // Dash
             // 
@@ -507,7 +493,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -540,7 +525,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel9;
@@ -554,6 +538,6 @@
         private System.Windows.Forms.Label BookSlb;
         private System.Windows.Forms.Button Save;
         private System.Windows.Forms.Label glpassw;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
