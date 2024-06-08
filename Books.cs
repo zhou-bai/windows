@@ -46,7 +46,7 @@ namespace Bookshop
 
         }
 
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\VS_my_flies\Bookshop-main\data\bookshop.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\data\bookshop.mdf;Integrated Security=True;Connect Timeout=30");
 
         private void Save_Click(object sender, EventArgs e)
         {

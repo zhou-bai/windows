@@ -35,7 +35,7 @@ namespace Bookshop
             Application.Exit();
         }
 
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\VS_my_flies\Bookshop-main\data\bookshop.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\data\bookshop.mdf;Integrated Security=True;Connect Timeout=30");
 
         private void populate()//数据库查询并存储到一张表中
         {

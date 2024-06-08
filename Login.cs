@@ -18,8 +18,7 @@ namespace Bookshop
         {
             InitializeComponent();
         }
-
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\VS_my_flies\Bookshop-main\data\bookshop.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\data\bookshop.mdf;Integrated Security=True;Connect Timeout=30");
         private void label3_Click(object sender, EventArgs e)
         {
 
