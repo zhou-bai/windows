@@ -17,7 +17,13 @@ namespace Bookshop
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Splane());
-            Application.Run(new Splane());
+            //Application.Run(new SplashScreen());
+            SplashScreen splashScreen = new SplashScreen();
+            if(splashScreen.ShowDialog()==DialogResult.OK)
+            {
+                Application.Run(new Login());
+            }
+
         }
     }
 }

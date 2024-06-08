@@ -119,3 +119,4 @@ E:\Project\Windows\windows\obj\Debug\Bookshop.csproj.CoreCompileInputs.cache
 E:\Project\Windows\windows\obj\Debug\Bookshop.csproj.CopyComplete
 E:\Project\Windows\windows\obj\Debug\Bookshop.exe
 E:\Project\Windows\windows\obj\Debug\Bookshop.pdb
+E:\Project\Windows\windows\obj\Debug\Bookshop.SplashScreen.resources

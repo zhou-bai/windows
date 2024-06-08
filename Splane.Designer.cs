@@ -55,7 +55,7 @@
             // 
             this.MyprogressBar.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.MyprogressBar.Location = new System.Drawing.Point(16, 331);
-            this.MyprogressBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MyprogressBar.Margin = new System.Windows.Forms.Padding(4);
             this.MyprogressBar.Name = "MyprogressBar";
             this.MyprogressBar.Size = new System.Drawing.Size(635, 29);
             this.MyprogressBar.TabIndex = 2;
@@ -112,7 +112,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Splane";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splane";

@@ -157,12 +157,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="User.Designer.cs">
       <DependentUpon>User.cs</DependentUpon>
     </Compile>
+    <Compile Include="utils\DragControls.cs" />
     <EmbeddedResource Include="Billing.resx">
       <DependentUpon>Billing.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Splane.resx">
       <DependentUpon>Splane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User.resx">
       <DependentUpon>User.cs</DependentUpon>
@@ -261,6 +271,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>bookshop.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\Splashbackground.png" />
     <None Include="Resources\付款码.jpg" />
     <None Include="Resources\cion3.png" />
     <None Include="Resources\jnuicon1.png" />
@@ -277,5 +288,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

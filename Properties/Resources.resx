@@ -136,6 +136,9 @@
   <data name="224用户" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\224用户.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="付款码1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\付款码.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="book" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,7 +172,7 @@
   <data name="家庭" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\家庭.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="付款码1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\付款码.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Splashbackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Splashbackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
