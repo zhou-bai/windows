@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label13 = new System.Windows.Forms.Label();
             this.Delete = new System.Windows.Forms.Button();
             this.Edit = new System.Windows.Forms.Button();
@@ -86,7 +86,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label13.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label13.Location = new System.Drawing.Point(598, 248);
+            this.label13.Location = new System.Drawing.Point(709, 251);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(110, 31);
@@ -102,7 +102,7 @@
             this.Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Delete.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Delete.ForeColor = System.Drawing.Color.White;
-            this.Delete.Location = new System.Drawing.Point(942, 160);
+            this.Delete.Location = new System.Drawing.Point(1053, 163);
             this.Delete.Margin = new System.Windows.Forms.Padding(4);
             this.Delete.Name = "Delete";
             this.Delete.Size = new System.Drawing.Size(139, 46);
@@ -119,7 +119,7 @@
             this.Edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Edit.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Edit.ForeColor = System.Drawing.Color.White;
-            this.Edit.Location = new System.Drawing.Point(623, 160);
+            this.Edit.Location = new System.Drawing.Point(734, 163);
             this.Edit.Margin = new System.Windows.Forms.Padding(4);
             this.Edit.Name = "Edit";
             this.Edit.Size = new System.Drawing.Size(139, 46);
@@ -133,7 +133,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label5.Location = new System.Drawing.Point(1005, 35);
+            this.label5.Location = new System.Drawing.Point(1116, 38);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 31);
@@ -146,7 +146,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label4.Location = new System.Drawing.Point(697, 36);
+            this.label4.Location = new System.Drawing.Point(808, 39);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(110, 31);
@@ -159,7 +159,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label3.Location = new System.Drawing.Point(397, 35);
+            this.label3.Location = new System.Drawing.Point(508, 38);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 31);
@@ -170,7 +170,7 @@
             // UPhone
             // 
             this.UPhone.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.UPhone.Location = new System.Drawing.Point(392, 85);
+            this.UPhone.Location = new System.Drawing.Point(503, 88);
             this.UPhone.Margin = new System.Windows.Forms.Padding(4);
             this.UPhone.Name = "UPhone";
             this.UPhone.Size = new System.Drawing.Size(267, 35);
@@ -211,14 +211,14 @@
             this.UserDGV.BackgroundColor = System.Drawing.Color.White;
             this.UserDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UserDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.UserDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.UserDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.UserDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.UserDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column6,
@@ -227,15 +227,15 @@
             this.Column3,
             this.Column4});
             this.UserDGV.EnableHeadersVisualStyles = false;
-            this.UserDGV.Location = new System.Drawing.Point(38, 298);
+            this.UserDGV.Location = new System.Drawing.Point(149, 301);
             this.UserDGV.Margin = new System.Windows.Forms.Padding(4);
             this.UserDGV.Name = "UserDGV";
             this.UserDGV.ReadOnly = true;
             this.UserDGV.RowHeadersVisible = false;
             this.UserDGV.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
-            this.UserDGV.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
+            this.UserDGV.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.UserDGV.RowTemplate.Height = 23;
             this.UserDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.UserDGV.Size = new System.Drawing.Size(1247, 466);
@@ -285,7 +285,7 @@
             // UPass
             // 
             this.UPass.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.UPass.Location = new System.Drawing.Point(995, 85);
+            this.UPass.Location = new System.Drawing.Point(1106, 88);
             this.UPass.Margin = new System.Windows.Forms.Padding(4);
             this.UPass.Name = "UPass";
             this.UPass.Size = new System.Drawing.Size(267, 35);
@@ -295,7 +295,7 @@
             // UAdd
             // 
             this.UAdd.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.UAdd.Location = new System.Drawing.Point(691, 85);
+            this.UAdd.Location = new System.Drawing.Point(802, 88);
             this.UAdd.Margin = new System.Windows.Forms.Padding(4);
             this.UAdd.Name = "UAdd";
             this.UAdd.Size = new System.Drawing.Size(267, 35);
@@ -310,7 +310,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(865, 233);
+            this.button5.Location = new System.Drawing.Point(976, 236);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(139, 46);
@@ -327,7 +327,7 @@
             this.Save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Save.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Save.ForeColor = System.Drawing.Color.White;
-            this.Save.Location = new System.Drawing.Point(333, 160);
+            this.Save.Location = new System.Drawing.Point(444, 163);
             this.Save.Margin = new System.Windows.Forms.Padding(4);
             this.Save.Name = "Save";
             this.Save.Size = new System.Drawing.Size(139, 46);
@@ -341,7 +341,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label2.Location = new System.Drawing.Point(83, 34);
+            this.label2.Location = new System.Drawing.Point(194, 37);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 31);
@@ -352,7 +352,7 @@
             // UName
             // 
             this.UName.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.UName.Location = new System.Drawing.Point(77, 84);
+            this.UName.Location = new System.Drawing.Point(188, 87);
             this.UName.Margin = new System.Windows.Forms.Padding(4);
             this.UName.Name = "UName";
             this.UName.Size = new System.Drawing.Size(267, 35);
@@ -445,7 +445,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(77, 39);
             this.label8.TabIndex = 11;
-            this.label8.Text = "查询";
+            this.label8.Text = "汇总";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // panel4

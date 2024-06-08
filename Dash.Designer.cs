@@ -227,7 +227,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(77, 39);
             this.label8.TabIndex = 11;
-            this.label8.Text = "查询";
+            this.label8.Text = "汇总";
             // 
             // panel4
             // 
@@ -308,7 +308,7 @@
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.Navy;
+            this.panel9.BackColor = System.Drawing.Color.DarkCyan;
             this.panel9.Controls.Add(this.UserSlb);
             this.panel9.Controls.Add(this.pictureBox9);
             this.panel9.Controls.Add(this.label13);
@@ -356,7 +356,7 @@
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.panel8.BackColor = System.Drawing.Color.Turquoise;
             this.panel8.Controls.Add(this.AmountSlb);
             this.panel8.Controls.Add(this.pictureBox8);
             this.panel8.Controls.Add(this.label5);
@@ -404,7 +404,7 @@
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.DarkGreen;
+            this.panel7.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel7.Controls.Add(this.BookSlb);
             this.panel7.Controls.Add(this.pictureBox7);
             this.panel7.Controls.Add(this.label2);

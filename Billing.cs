@@ -179,6 +179,45 @@ namespace Bookshop
 
         }
 
+        private void Jsb_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void wxbox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Jsb_Click_1(object sender, EventArgs e)
+        {
+            if (BillDGV.Rows.Count == 0 || BillDGV.Rows[0].Cells[0].Value == null)
+            {
+                MessageBox.Show("购物车空，请加入商品！！！");
+            }
+            else
+            {
+                try
+                {
+                    Con.Open();
+                    js = true;
+                    wxbox.Visible = true;
+                    MessageBox.Show("已支付" + GrdToal + "元\n请打印小票以结束订单");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                finally
+                {
+                    Con.Close();
+                    //populate();
+                    //Res(); 
+                }
+
+            }
+        }
+
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -213,7 +252,9 @@ namespace Bookshop
             pos = 100;
             GrdToal = 0;
             js = false;
+            wxbox.Visible = false;
         }
+
 
         private void BookDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
