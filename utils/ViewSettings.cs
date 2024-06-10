@@ -11,6 +11,14 @@ namespace Bookshop.utils
     {
         public ViewSettings() { }
 
+        public void SetControlRectRgn(Control control, int rgnRadius)
+        {
+            int hRgn = 0;
+            hRgn = Win32.CreateRoundRectRgn(0, 0, control.Width + 1, control.Height + 1, rgnRadius, rgnRadius);
+            Win32.SetWindowRgn(control.Handle, hRgn, true);
+            Win32.DeleteObject(hRgn);
+        }
+
         public void SetFormRoundRectRgn(Form form, int rgnRadius)
         {
             int hRgn = 0;

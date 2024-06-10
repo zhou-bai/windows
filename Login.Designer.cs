@@ -146,7 +146,7 @@
             this.button1.Location = new System.Drawing.Point(525, 245);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(194, 55);
+            this.button1.Size = new System.Drawing.Size(194, 60);
             this.button1.TabIndex = 7;
             this.button1.Text = "登录";
             this.button1.UseVisualStyleBackColor = false;

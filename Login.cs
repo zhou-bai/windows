@@ -15,7 +15,7 @@ namespace Bookshop
 {
     public partial class Login : Form
     {
-        DragControls dragControls;
+        ViewSettings viewSettings;
         public Login()
         {
             InitializeComponent();

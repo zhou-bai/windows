@@ -10,5 +10,6 @@ namespace Bookshop
     internal interface IViewSettings
     {
         void SetFormRoundRectRgn(Form form,int rgnRadius);
+        void SetControlRectRgn(Control control,int rgnRadius);
     }
 }
