@@ -33,6 +33,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelprogressBar = new System.Windows.Forms.Panel();
             this.timerprogressBar = new System.Windows.Forms.Timer(this.components);
+            this.mouseMoveController1 = new Bookshop.Components.MouseMoveController(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.BackGround)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -74,6 +75,10 @@
             this.timerprogressBar.Interval = 30;
             this.timerprogressBar.Tick += new System.EventHandler(this.timerprogressBar_Tick);
             // 
+            // mouseMoveController1
+            // 
+            this.mouseMoveController1.Form = null;
+            // 
             // SplashScreen
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -98,5 +103,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panelprogressBar;
         private System.Windows.Forms.Timer timerprogressBar;
+        private Components.MouseMoveController mouseMoveController1;
     }
 }

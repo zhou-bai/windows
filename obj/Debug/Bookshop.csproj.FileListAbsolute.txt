@@ -112,7 +112,6 @@ E:\Project\Windows\windows\obj\Debug\Bookshop.glpw.resources
 E:\Project\Windows\windows\obj\Debug\Bookshop.Login.resources
 E:\Project\Windows\windows\obj\Debug\Bookshop.Properties.Resources.resources
 E:\Project\Windows\windows\obj\Debug\Bookshop.signup.resources
-E:\Project\Windows\windows\obj\Debug\Bookshop.Splane.resources
 E:\Project\Windows\windows\obj\Debug\Bookshop.User.resources
 E:\Project\Windows\windows\obj\Debug\Bookshop.csproj.GenerateResource.cache
 E:\Project\Windows\windows\obj\Debug\Bookshop.csproj.CoreCompileInputs.cache
@@ -120,3 +119,4 @@ E:\Project\Windows\windows\obj\Debug\Bookshop.csproj.CopyComplete
 E:\Project\Windows\windows\obj\Debug\Bookshop.exe
 E:\Project\Windows\windows\obj\Debug\Bookshop.pdb
 E:\Project\Windows\windows\obj\Debug\Bookshop.SplashScreen.resources
+E:\Project\Windows\windows\obj\Debug\Bookshop.Components.MouseMoveController.resources

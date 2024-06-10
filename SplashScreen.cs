@@ -17,6 +17,8 @@ namespace Bookshop
         public SplashScreen()
         {
             InitializeComponent();
+            mouseMoveController1.Form = this;
+            mouseMoveController1.Add(new Control[] {this, BackGround });
         }
         private void timerprogressBar_Tick(object sender, EventArgs e)
         {
@@ -34,7 +36,6 @@ namespace Bookshop
                 this.DialogResult = DialogResult.OK;
             }
         }
-
         private void BackGround_Click(object sender, EventArgs e)
         {
 
