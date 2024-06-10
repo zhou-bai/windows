@@ -120,3 +120,4 @@ E:\Project\Windows\windows\obj\Debug\Bookshop.exe
 E:\Project\Windows\windows\obj\Debug\Bookshop.pdb
 E:\Project\Windows\windows\obj\Debug\Bookshop.SplashScreen.resources
 E:\Project\Windows\windows\obj\Debug\Bookshop.Components.MouseMoveController.resources
+E:\Project\Windows\windows\obj\Debug\Bookshop.UserLogin.resources

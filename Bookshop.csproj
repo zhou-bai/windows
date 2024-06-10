@@ -145,6 +145,7 @@
     <Compile Include="glpw.Designer.cs">
       <DependentUpon>glpw.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\IViewSettings.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,7 +172,15 @@
     <Compile Include="User.Designer.cs">
       <DependentUpon>User.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLogin.Designer.cs">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="utils\DragControls.cs" />
+    <Compile Include="utils\ViewSettings.cs" />
+    <Compile Include="utils\Win32.cs" />
     <EmbeddedResource Include="Billing.resx">
       <DependentUpon>Billing.cs</DependentUpon>
     </EmbeddedResource>
@@ -208,6 +217,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User.resx">
       <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogin.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -273,6 +285,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>bookshop.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\咩咩子.png" />
     <None Include="Resources\Splashbackground.png" />
     <None Include="Resources\付款码.jpg" />
     <None Include="Resources\cion3.png" />

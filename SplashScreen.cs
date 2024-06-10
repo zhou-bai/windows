@@ -36,9 +36,5 @@ namespace Bookshop
                 this.DialogResult = DialogResult.OK;
             }
         }
-        private void BackGround_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

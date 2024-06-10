@@ -74,7 +74,7 @@ namespace Bookshop.Components
                 {
                     isMoving = false;
                 }
-            };
+            }; 
         }
     }
 }
